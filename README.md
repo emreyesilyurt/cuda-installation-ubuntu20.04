@@ -41,3 +41,6 @@ Reboot
 
 To download cuDNN we must have an nvidia account. From [this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
 
+Let's download the compatible cuDNN v7.6.5 version.
+
+
