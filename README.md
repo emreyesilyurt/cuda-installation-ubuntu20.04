@@ -43,4 +43,28 @@ To download cuDNN we must have an nvidia account. From [this link](https://devel
 
 Let's download the compatible cuDNN v7.6.5 version.
 
+Then in the directory where we downloaded cuDNN;
 
+> $ tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
+
+Then we copy the extracted files to the directory where the cuda is installed.
+
+> $ sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
+> $ sudo cp cuda/lib64/libcudnn* /usr/lib/cuda/lib64/
+
+Set file permissions.
+
+> $ sudo chmod a+r /usr/lib/cuda/include/cudnn.h /usr/lib/cuda/lib64/libcudnn*
+
+Adding cuda environment variables to the bash profile.
+
+> $ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+> $ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH' >> ~/.bashrc
+
+Rerun the bash profile.
+
+> source ~/.bashrc
+
+Installing TensorFlow
+
+> $ pip3 install tensorflow
