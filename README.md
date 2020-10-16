@@ -39,5 +39,5 @@ Reboot
 
 ##### Installing cuDNN
 
-To download cuDNN we must have an nvidia account. From [!this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
+To download cuDNN we must have an nvidia account. From [this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
 
