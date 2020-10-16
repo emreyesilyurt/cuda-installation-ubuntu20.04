@@ -1,3 +1,5 @@
+![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/tensorflow.png?raw=true)
+
 * Installing Cuda 10.1.
 * Installing cuDNN v7.6.5.
 * Adding the cuda environment variables to the bash profile.
