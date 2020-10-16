@@ -36,3 +36,8 @@ Reboot
 ##### Expected output
 
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/output.png?raw=true)
+
+##### Installing cuDNN
+
+To download cuDNN we must have an nvidia account. From [!this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
+
