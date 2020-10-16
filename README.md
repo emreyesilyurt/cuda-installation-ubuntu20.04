@@ -13,3 +13,26 @@
 
 ##### Checking the driver.
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/driver.png?raw=true)
+
+If you see the "Continue using a manually installed driver" warning, you must uninstall the manually installed driver's repo.
+> $ sudo nano /etc/apt/sources.list
+
+Then remove the repo.
+
+> $ sudo apt update
+
+Reboot
+
+> $ reboot
+
+##### Installing Cuda Toolkit 10.1
+
+> sudo apt install nvidia-cuda-toolkit
+
+##### Let's check it out.
+
+> nvcc -V
+
+##### Expected output
+
+![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/output.png?raw=true)
