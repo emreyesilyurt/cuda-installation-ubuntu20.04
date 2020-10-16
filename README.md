@@ -68,3 +68,11 @@ Rerun the bash profile.
 Installing TensorFlow
 
 > $ pip3 install tensorflow
+
+Check that everything is fine.
+
+> import tensorflow as tf
+> tf.config.list_physical_devices("GPU")    
+![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/check.png?raw=true)
+
+
