@@ -72,7 +72,8 @@ Installing TensorFlow
 Check that everything is fine.
 
 > import tensorflow as tf
-> tf.config.list_physical_devices("GPU")    
+> tf.config.list_physical_devices("GPU")  
+
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/check.png?raw=true)
 
 
