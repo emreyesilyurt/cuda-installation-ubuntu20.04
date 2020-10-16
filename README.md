@@ -5,3 +5,5 @@
 
 ##### This utility was created assuming you are using Ubuntu 20.04 and Nvidia> = 418.39 driver.
 ![alt-text](https://raw.githubusercontent.com/emreyesilyurt/cuda-installation-ubuntu20.04/main/images/cuda1.png?token=ALCXXP5PCCNRIGP5JXROCIC7RHWAA)
+
+![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/cuda2.png?raw=true)
