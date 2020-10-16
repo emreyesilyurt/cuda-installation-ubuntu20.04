@@ -52,6 +52,7 @@ Then in the directory where we downloaded cuDNN;
 Then we copy the extracted files to the directory where the cuda is installed.
 
 > $ sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
+
 > $ sudo cp cuda/lib64/libcudnn* /usr/lib/cuda/lib64/
 
 Set file permissions.
