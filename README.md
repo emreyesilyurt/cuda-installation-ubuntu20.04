@@ -10,3 +10,5 @@
 
 ##### Hardware Support
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/cuda2.png?raw=true)
+
+##### Checking the driver.
