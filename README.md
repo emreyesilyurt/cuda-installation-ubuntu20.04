@@ -66,6 +66,7 @@ Adding cuda environment variables to the bash profile.
 Add the following lines at the end of the lines.
 
 > export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
+
 > export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
 
 Rerun the bash profile.
