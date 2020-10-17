@@ -1,3 +1,5 @@
+Detaylı Türkçe anlatım -->  [Medium](https://medium.com/@emreyesilyurt/cuda-ve-cudnn-nedir-tensorflow-gpu-deste%C4%9Fi-nas%C4%B1l-sa%C4%9Flan%C4%B1r-2b03cf8b7687)
+
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/tensorflow.png?raw=true)
 
 * Installing Cuda 10.1.
