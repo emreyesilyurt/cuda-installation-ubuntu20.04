@@ -1,7 +1,7 @@
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/tensorflow.png?raw=true)
 
 * Installing Cuda 10.1.
-* Installing cuDNN v7.6.5.
+* Installing cuDNN v8.0.4
 * Adding the cuda environment variables to the bash profile.
 * Installing Tensorflow.
 
@@ -43,11 +43,11 @@ Reboot
 
 To download cuDNN we must have an nvidia account. From [this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
 
-Let's download the compatible cuDNN v7.6.5 version.
+Let's download the compatible cuDNN v8.0.4 for CUDA 10.1 version.
 
 Then in the directory where we downloaded cuDNN;
 
-> $ tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
+> $ tar -xvzf cudnn-10.1-linux-x64-v8.0.4.30.tgz
 
 Then we copy the extracted files to the directory where the cuda is installed.
 
