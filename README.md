@@ -1,7 +1,7 @@
 ![alt-text](https://github.com/emreyesilyurt/cuda-installation-ubuntu20.04/blob/main/images/tensorflow.png?raw=true)
 
 * Installing Cuda 10.1.
-* Installing cuDNN v8.0.4
+* Installing cuDNN v7.6.5
 * Adding the cuda environment variables to the bash profile.
 * Installing Tensorflow.
 
@@ -41,13 +41,13 @@ Reboot
 
 ##### Installing cuDNN
 
-To download cuDNN we must have an nvidia account. From [this link](https://developer.nvidia.com/rdp/cudnn-download), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
+To download cuDNN we must have an nvidia account. From [this link](https://developer.nvidia.com/rdp/cudnn-archive), you can go to the page where you can download cuDNN, after logging in, you can download cuDNN.
 
-Let's download the compatible cuDNN v8.0.4 for CUDA 10.1 version.
+Let's download the compatible cuDNN v7.6.5 for CUDA 10.1 version.
 
 Then in the directory where we downloaded cuDNN;
 
-> $ tar -xvzf cudnn-10.1-linux-x64-v8.0.4.30.tgz
+> $ tar -xvzf cudnn-10.1-linux-x64-v7.6.5.32.tgz
 
 Then we copy the extracted files to the directory where the cuda is installed.
 
@@ -61,9 +61,12 @@ Set file permissions.
 
 Adding cuda environment variables to the bash profile.
 
-> $ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+> $ nano ~/.bashrc
 
-> $ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH' >> ~/.bashrc
+Add the following lines at the end of the lines.
+
+> export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
+> export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
 
 Rerun the bash profile.
 
